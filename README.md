@@ -11,5 +11,5 @@ Plugin must be activated on WordPress install where the command is desired to be
 
 
 ### More information on WP-CLI
-[WP-CLI.org](https://wp-cli.org/)
+[WP-CLI.org](https://wp-cli.org/)<br>
 [WP-CLI Handbook](https://make.wordpress.org/cli/handbook/)

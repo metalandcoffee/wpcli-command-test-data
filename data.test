@@ -1,0 +1,295 @@
+<!-- wp:heading -->
+<h2>Ebonie's Test Data</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta eu ex quis laoreet. Donec vulputate aliquam risus quis fermentum. Aenean in tincidunt ante, vitae rhoncus odio. Mauris dui elit, interdum ac urna et, dictum rhoncus metus. Suspendisse euismod dolor vel justo fringilla, ac dignissim dolor dapibus. Maecenas viverra non lectus vel vehicula. Duis pellentesque aliquet laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eu tortor ut erat suscipit consequat malesuada in lectus. Quisque tincidunt tempor mattis.<br></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Doom Metal</li><li>Sludge Metal</li><li>Heavy Metal</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="images">Images</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4>Cover Image</h4>
+<!-- /wp:heading -->
+
+<!-- wp:cover {"url":"http://wpcli.test/wp-content/uploads/2020/01/adventure-calm-clouds-414171.jpg","id":6,"hasParallax":true} -->
+<div class="wp-block-cover has-background-dim has-parallax" style="background-image:url(http://wpcli.test/wp-content/uploads/2020/01/adventure-calm-clouds-414171.jpg)"><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
+<p class="has-text-align-center has-large-font-size">Cover Image</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:heading {"level":4} -->
+<h4>Single Image</h4>
+<!-- /wp:heading -->
+
+<!-- wp:image {"align":"center","id":5,"sizeSlug":"large"} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="http://wpcli.test/wp-content/uploads/2020/01/acoustic-amplifier-artist-114820-1024x576.jpg" alt="" class="wp-image-5"/></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":4} -->
+<h4>Image Gallery</h4>
+<!-- /wp:heading -->
+
+<!-- wp:gallery {"ids":[9,8,7],"columns":0,"className":"alignnone"} -->
+<figure class="wp-block-gallery columns-0 is-cropped alignnone"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="http://wpcli.test/wp-content/uploads/2020/01/beautiful-bouquet-color-1179026.jpg" alt="" data-id="9" data-full-url="http://wpcli.test/wp-content/uploads/2020/01/beautiful-bouquet-color-1179026.jpg" data-link="http://wpcli.test/?attachment_id=9" class="wp-image-9"/></figure></li><li class="blocks-gallery-item"><figure><img src="http://wpcli.test/wp-content/uploads/2020/01/art-artistic-bright-268435-1024x285.jpg" alt="" data-id="8" data-full-url="http://wpcli.test/wp-content/uploads/2020/01/art-artistic-bright-268435-scaled.jpg" data-link="http://wpcli.test/?attachment_id=8" class="wp-image-8"/></figure></li><li class="blocks-gallery-item"><figure><img src="http://wpcli.test/wp-content/uploads/2020/01/architecture-blue-sky-cliff-248771-1024x554.jpg" alt="" data-id="7" data-full-url="http://wpcli.test/wp-content/uploads/2020/01/architecture-blue-sky-cliff-248771.jpg" data-link="http://wpcli.test/?attachment_id=7" class="wp-image-7"/></figure></li></ul></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:quote {"className":"is-large"} -->
+<blockquote class="wp-block-quote is-large"><p>Maybe someone else said it better -- add some quoted text.</p><cite>Henry PauliSan</cite></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:heading {"level":4} -->
+<h4>Pullquote</h4>
+<!-- /wp:heading -->
+
+<!-- wp:pullquote {"className":"alignnone"} -->
+<figure class="wp-block-pullquote alignnone"><blockquote><p><br>Highlight a quote from your post or page by displaying it as a graphic element.</p><cite>Gutenberg Dev Team</cite></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:nextpage -->
+<!--nextpage-->
+<!-- /wp:nextpage -->
+
+<!-- wp:heading -->
+<h2 id="verse">Verse Block</h2>
+<!-- /wp:heading -->
+
+<!-- wp:verse {"textAlign":"center"} -->
+<pre class="wp-block-verse has-text-align-center"><strong>What is love.</strong><br><br>Baby don't hurt me.<br><br><em>Jon Show</em></pre>
+<!-- /wp:verse -->
+
+<!-- wp:heading {"className":"buttons"} -->
+<h2 class="buttons">Buttons</h2>
+<!-- /wp:heading -->
+
+<!-- wp:button {"customBackgroundColor":"#19597c","className":"alignnone"} -->
+<div class="wp-block-button alignnone"><a class="wp-block-button__link has-background" href="mailto:birgit.pauli@gmail.com" style="background-color:#19597c"><em><strong>Send me an email</strong></em><em><strong></strong></em></a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"customBackgroundColor":"#3d1ed6","align":"center"} -->
+<div class="wp-block-button aligncenter"><a class="wp-block-button__link has-background" href="http://gutenbergtimes.com" style="background-color:#3d1ed6">Go to Gutenberg Times</a></div>
+<!-- /wp:button -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Text only columns</h3>
+<!-- /wp:heading -->
+
+<!-- wp:text-columns {"columns":3,"width":"center"} -->
+<div class="wp-block-text-columns aligncenter columns-3"><div class="wp-block-column"><p>This is my first column This is my first <strong>columnThis</strong> is my first columnThis is my first columnThis is my first columnThis is my first columnThis is my first columnThis is my first columnThis is my first columnThis is my first columnThis is my first columnThis is my first columnThis is my first column</p></div><div class="wp-block-column"><p><em>This is my second columnThis is my second columnThis is my second columnThis is my second columnThis is my second columnThis is my second columnThis is my second columnThis is my second columnThis is my second columnThis is my second columnThis is my second column</em></p></div><div class="wp-block-column"><p>This is my third column<br>This is my third columnThis is my third columnThis is my third columnThis is my third columnThis is my third columnThis is my third columnThis is my third columnThis is my third columnThis is my third columnThis is my third column<br></p></div></div>
+<!-- /wp:text-columns -->
+
+<!-- wp:columns {"className":"has-2-columns"} -->
+<div class="wp-block-columns has-2-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"className":"layout-column-1"} -->
+<h3 class="layout-column-1">This is the title of the first column</h3>
+<!-- /wp:heading -->
+
+<!-- wp:image {"align":"center","id":1410,"width":228,"height":152,"className":"layout-column-1"} -->
+<div class="wp-block-image layout-column-1"><figure class="aligncenter is-resized"><img src="http://tt.wpswfl.org/wp-content/uploads/2017/03/Session-16NTC.jpg" alt="" class="wp-image-1410" width="228" height="152"/></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"customTextColor":"#ffffff","backgroundColor":"vivid cyan blue","className":"layout-column-1"} -->
+<p style="color:#ffffff" class="has-text-color has-background has-vivid-cyan-blue-background-color layout-column-1">Then we need some more text that's something like a summary or a teaser.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"layout-column-1"} -->
+<p class="layout-column-1">Then we need some more text that's something like a summary or a teaser.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:button {"backgroundColor":"vivid cyan blue","align":"center","className":"layout-column-1"} -->
+<div class="wp-block-button aligncenter layout-column-1"><a class="wp-block-button__link has-background has-vivid-cyan-blue-background-color" href="#widgets">Read more</a></div>
+<!-- /wp:button -->
+
+<!-- wp:paragraph {"className":"layout-column-1"} -->
+<p class="layout-column-1"></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"className":"layout-column-2"} -->
+<h3 class="layout-column-2">The second column has a title </h3>
+<!-- /wp:heading -->
+
+<!-- wp:image {"id":1529,"width":275,"height":151,"className":"layout-column-2"} -->
+<figure class="wp-block-image is-resized layout-column-2"><img src="http://tt.wpswfl.org/wp-content/uploads/2017/07/WordCampEurope-Paris-2017.jpg" alt="WordCamp Europe Paris 2017" class="wp-image-1529" width="275" height="151"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"center","customTextColor":"#ffffff","backgroundColor":"light green cyan","className":"layout-column-2"} -->
+<p style="color:#ffffff" class="has-text-color has-background has-text-align-center has-light-green-cyan-background-color layout-column-2">Then we need some more text that's something like a summary or a teaser.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"layout-column-2"} -->
+<p class="layout-column-2">Then we need some more text that's something like a summary or a teaser.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:button {"backgroundColor":"vivid green cyan","align":"center","className":"layout-column-2"} -->
+<div class="wp-block-button aligncenter layout-column-2"><a class="wp-block-button__link has-background has-vivid-green-cyan-background-color" href="#columns">Enjoy the ride</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:nextpage -->
+<!--nextpage-->
+<!-- /wp:nextpage -->
+
+<!-- wp:heading -->
+<h2 id="paragraphs">Examples of Paragraphs </h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"dropCap":true,"customTextColor":"#1c6087","backgroundColor":"very light gray","fontSize":"large"} -->
+<p style="color:#1c6087" class="has-text-color has-background has-drop-cap has-large-font-size has-very-light-gray-background-color">The experimental columns with nested blocks: two columns, each with a title, a graphic, a teaser and a link.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"customTextColor":"#ffffff","backgroundColor":"light green cyan","fontSize":"large"} -->
+<p style="color:#ffffff" class="has-text-color has-background has-large-font-size has-light-green-cyan-background-color"><em>Careful, though, nested blocks are still very experimental </em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"customFontSize":20} -->
+<p style="font-size:20px">Now let’s look a broader look at donors in general. Many nonprofits decide that it is easier to use a technical tool called Software as a Service (SaaS), to help organize their fundraising than it is to do the administrative work themselves. There are many donation management service companies, each of which has their own privacy policy regarding the protection of data.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"customTextColor":"#3012c3","backgroundColor":"very light gray"} -->
+<p style="color:#3012c3" class="has-text-color has-background has-very-light-gray-background-color">Most of the ones we have researched treat donor data as the property of the nonprofit organization as opposed to the individual owning their data. In addition to the email data described above, more detail is suggested to help improve campaign results and event attendance.  For example, if you ask donors to list their employer, it is because a simple search by the SaaS provider can identify those firms doing matching contributions.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If your wife has a separate income, the same may apply to her. Your employer may want to make a contribution regardless of matching funds, and the information is requested about who should be approached. Care to approach a relative or neighbor for a contribution, then you become a source for their data.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="audio">Audio Block</h2>
+<!-- /wp:heading -->
+
+<!-- wp:audio {"id":3319,"align":"center"} -->
+<figure class="wp-block-audio aligncenter"><audio controls src="http://tt.wpswfl.org/wp-content/uploads/2018/05/spencer_angelin_2016-05-18_15-38-05.mp3"></audio></figure>
+<!-- /wp:audio -->
+
+<!-- wp:heading -->
+<h2 id="video">Video Block</h2>
+<!-- /wp:heading -->
+
+<!-- wp:video {"id":3320} -->
+<figure class="wp-block-video"><video controls src="http://tt.wpswfl.org/wp-content/uploads/2018/05/Caldera-Gutenberg-Block.mp4"></video></figure>
+<!-- /wp:video -->
+
+<!-- wp:heading -->
+<h2>Code Block</h2>
+<!-- /wp:heading -->
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>import React from 'react';
+
+class StorePicker extends React.Component {
+  render() {
+    // Any where else
+    return &lt;p>Hello&lt;/p>
+  }
+}
+
+export default StorePicker;
+</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:nextpage -->
+<!--nextpage-->
+<!-- /wp:nextpage -->
+
+<!-- wp:heading -->
+<h2 id="widgets">Widgets</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Latest Post</h3>
+<!-- /wp:heading -->
+
+<!-- wp:latest-posts {"postsToShow":6,"displayPostDate":true,"postLayout":"grid","columns":2} /-->
+
+<!-- wp:heading {"level":3} -->
+<h3>Categories</h3>
+<!-- /wp:heading -->
+
+<!-- wp:categories {"showHierarchy":true,"showPostCounts":true} /-->
+
+<!-- wp:heading -->
+<h2 id="lists">Lists</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li><a href="https://tam.blog/2017/12/gutenberg-inspired-redesign/">Gutenberg inspired redesign</a> (Dec 29, 2017)</li><li><a href="https://tam.blog/2018/01/gutenberg-design-basics/">Gutenberg design basics</a> (Jan 8, 2018)</li><li>Sidetrack: <a href="https://tam.blog/reading-list/">Tammie's recommended reading list</a></li></ul>
+<!-- /wp:list -->
+
+<!-- wp:list {"ordered":true} -->
+<ol><li><a href="https://riad.blog/2017/12/30/wordpress-core-the-next-battles/">WordPress Core, the next battles</a> (Dec 30, 2018)</li><li><a href="https://riad.blog/2017/12/11/with-gutenberg-what-happens-to-my-custom-fields/">With Gutenberg, what happens to my Custom Fields?</a> (Dec 11, 2018)</li><li><a href="https://riad.blog/2017/10/16/one-thousand-and-one-way-to-extend-gutenberg-today/">One thousand and one way to extend Gutenberg today</a> (Oct 16, 2018)</li><li><a href="https://riad.blog/2017/10/06/how-gutenberg-is-changing-wordpress-development/">How Gutenberg is changing WordPress Development?</a> (Oct 6, 2018)</li></ol>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 id="table">Table</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table {"className":"aligncenter"} -->
+<figure class="wp-block-table aligncenter"><table class=""><tbody><tr><td><strong>Total Population</strong></td><td><strong>Year</strong></td></tr><tr><td>321,520</td><td>2010<br></td></tr><tr><td>327,541<br></td><td>2011</td></tr><tr><td>332,332</td><td>2012</td></tr><tr><td>339,224</td><td>2013</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:nextpage -->
+<!--nextpage-->
+<!-- /wp:nextpage -->
+
+<!-- wp:heading -->
+<h2>Embedding</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Tweet</h3>
+<!-- /wp:heading -->
+
+<!-- wp:core-embed/twitter {"url":"https://twitter.com/gutenbergtimes/status/1009883503624904707","type":"rich","providerNameSlug":"twitter","className":""} -->
+<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
+https://twitter.com/gutenbergtimes/status/1009883503624904707
+</div></figure>
+<!-- /wp:core-embed/twitter -->
+
+<!-- wp:heading {"level":3} -->
+<h3>WordPress Post</h3>
+<!-- /wp:heading -->
+
+<!-- wp:core-embed/wordpress {"url":"https://gutenbergtimes.com/53-resources-for-developers-designers-building-blocks-for-gutenberg/","type":"wp-embed","providerNameSlug":"gutenberg-times","className":""} -->
+<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-gutenberg-times"><div class="wp-block-embed__wrapper">
+https://gutenbergtimes.com/53-resources-for-developers-designers-building-blocks-for-gutenberg/
+</div><figcaption><strong>Still some place for a caption for this embed block</strong></figcaption></figure>
+<!-- /wp:core-embed/wordpress -->
+
+<!-- wp:heading {"level":3} -->
+<h3>YouTube Video</h3>
+<!-- /wp:heading -->
+
+<!-- wp:core-embed/youtube {"url":"https://www.youtube.com/watch?v=7XzPPnHGp_0","type":"video","providerNameSlug":"youtube","className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://www.youtube.com/watch?v=7XzPPnHGp_0
+</div><figcaption><em>Additional Caption can go here</em></figcaption></figure>
+<!-- /wp:core-embed/youtube -->
+
+<!-- wp:heading -->
+<h2>Instagram </h2>
+<!-- /wp:heading -->
+
+<!-- wp:core-embed/instagram {"url":"https://www.instagram.com/p/Bj4aGoFA5oq/","type":"rich","providerNameSlug":"instagram","className":""} -->
+<figure class="wp-block-embed-instagram wp-block-embed is-type-rich is-provider-instagram"><div class="wp-block-embed__wrapper">
+https://www.instagram.com/p/Bj4aGoFA5oq/
+</div></figure>
+<!-- /wp:core-embed/instagram -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Meetup </h3>
+<!-- /wp:heading -->
+
+<!-- wp:core-embed/meetup-com {"url":"https://www.meetup.com/philly-burbs-wordpress-meetup/events/267293914/","type":"rich","providerNameSlug":"meetup","className":""} -->
+<figure class="wp-block-embed-meetup-com wp-block-embed is-type-rich is-provider-meetup"><div class="wp-block-embed__wrapper">
+https://www.meetup.com/philly-burbs-wordpress-meetup/events/267293914/
+</div></figure>
+<!-- /wp:core-embed/meetup-com -->

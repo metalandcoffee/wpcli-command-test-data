@@ -1,6 +1,6 @@
 # Custom Command for WP-CLI
 
-This is a custom command to generate 10 post of the desired post type. If no post type is provided then it will default to `post`.
+This is a custom command to generate 10 posts of the desired post type. If no post type is provided then it will default to `post`.
 
 Each generate post will contain all Gutenberg blocks in use. A post thumbnail will also be automatically assigned to the post based on what is available in the media library.
 
